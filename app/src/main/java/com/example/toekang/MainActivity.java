@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         EditText etEmail = findViewById(R.id.et_email);
         EditText etPassword = findViewById(R.id.et_password);
         TextView etForgot = findViewById(R.id.et_forgotpassword);
-        Button btnLogin = findViewById(R.id.btn_login);
+        TextView btnLogin = findViewById(R.id.textView11);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 if (Email.equals("admin") && Password.equals("123")){
                     //jika login berhasil
                     Toast.makeText(getApplicationContext(), "LOGIN SUKSES", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(MainActivity.this, MainActivity.class);
+                    Intent intent = new Intent(MainActivity.this, Home.class);
                     MainActivity.this.startActivity(intent);
                     finish();
                 }else {

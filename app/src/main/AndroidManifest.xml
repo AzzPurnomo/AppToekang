@@ -10,29 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Toekang">
         <activity
-            android:name=".OnBoarding0"
+            android:name=".Home"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Daftar"
             android:exported="false" />
         <activity
-            android:name=".OnBoarding2"
-            android:exported="false" />
-        <activity
-            android:name=".OnBoarding1"
+            android:name=".OnBoarding"
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

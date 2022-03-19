@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dash_home" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="790dp"
+        android:layout_marginEnd="179dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bunder_home" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/icon_home" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:srcCompat="@drawable/home_penawaranicon" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/home_profilicon" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="26dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginBottom="57dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/home_buatproyekicon" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="48dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:srcCompat="@drawable/home_chat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
